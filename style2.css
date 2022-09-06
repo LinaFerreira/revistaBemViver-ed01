@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+    --color-title1: rgb(175, 137, 30);
+    --color-title2: rgb(11, 20, 75);
+
+    --color-small-text: rgb(97, 97, 112);
+    --color-text-detail:rgb(237, 237, 238); 
+    
+    --font-art: 'Berkshire Swash', cursive;
+    --font-small: 'Merriweather', serif;
+
+    font-size: 62.5%;
+}
+html{
+scroll-behavior: smooth;
+}
+.bigBox{
+    width: 400px;
+    margin: 0 auto;
+    /* padding: 10px; */
+}
+img{
+    width: 35rem;
+    border-radius: 3rem;
+    object-fit: cover;
+    margin: 0 auto;
+    margin: 2rem;
+
+}
+header{
+    display: flex;
+    background-color: var(--color-title2);
+   
+
+}
+header img{
+    width: 18rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-family: var(--font-small);
+    font-size: 1.3rem;
+    
+   
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+
+    background-color:var(--color-text-detail);
+    color:var(--color-small-text);
+    
+      
+    border-radius: 0 0 2rem 2rem;
+
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color:var(--color-small-text);
+    margin: 0 auto;
+
+}
+nav ul li{
+    padding-top: .5rem;
+    
+ 
+
+}
+
+ 
+nav ul li:hover{
+   
+    font-weight: 900;
+    cursor: pointer;
+    background-color: rgb(221, 219, 219);
+ 
+
+}
+.cover{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 2rem;
+
+
+}
+.materia{
+    margin-top: 2rem;
+}
+.materia img{
+    width: 40rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem; 
+}
+
+/* ---text-config------- */
+
+.title h1{
+    font-family: var(--font-art);
+    color:var(--color-title2);
+    font-size: 8rem;
+    padding-left:1.5rem;
+    text-shadow: 50%;
+    padding-top: 5rem;
+
+    margin-bottom: 2rem;
+}
+h1{
+    font-family: var(--font-art);
+    color:var(--color-title2);
+    font-size: 3.7rem;
+    padding-left:2rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+h2{
+    font-family: var(--font-art);
+    color:var(--color-title1);
+    font-size: 3.5rem;
+    text-align: center;
+   
+
+}
+.title h4{
+    font-family:var(--font-small);
+    color:var(--color-title2);
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+
+    padding-left:2rem;
+    text-align: center;
+}
+h4{
+    font-family:var(--font-small);
+    color:var(--color-small-text);
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    padding:.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+ 
+}
+p{
+    font-family:var(--font-small);
+    color:var(--color-title2);
+    font-size: 2rem;
+    text-align:center;
+    padding:2rem
+}
+
+
+/* -------------------title---------- */
+
+.title{
+ 
+    background-image: url("https://images.jota.info/wp-content/uploads/2022/08/antonio-vaz-island-recife-pernambuco-brazil-1024x678.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 2rem;
+    object-fit: cover;
+    
+
+}
+
+/* ------------footer--------------- */
+
+footer{
+    height: 10rem;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+  
+  
+}
+footer p{
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(189, 187, 187);
+   
+}
+
+
